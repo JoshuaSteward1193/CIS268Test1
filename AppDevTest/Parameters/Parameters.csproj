@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{62D46C37-9182-4165-8703-708CFC591DA8}</ProjectGuid>
+    <ProjectGuid>{11F783FD-A5F2-4A46-82B6-2CAAA65BEEE9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AppDevTest</RootNamespace>
-    <AssemblyName>AppDevTest</AssemblyName>
+    <RootNamespace>Parameters</RootNamespace>
+    <AssemblyName>Parameters</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Animal.cs" />
-    <Compile Include="Dog.cs" />
+    <Compile Include="ParameterModifiers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

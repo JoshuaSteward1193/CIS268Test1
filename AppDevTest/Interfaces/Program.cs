@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AppDevTest
+namespace Interfaces
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Dog doggy = new Dog(5, 30, "Poodle", true);
-            doggy.move();
+            Cat kitty = new Cat(2, 15, true);
+            kitty.move();
             Console.ReadKey();
         }
     }
